@@ -1,10 +1,10 @@
 # Aprendizaje Autónomo 2 – Juego del Ahorcado
 
 - Lenguaje: Python 3.x
-- Librerías: `random` (estándar, no hay que instalar nada)
+- Librerias usadas: `random` usada para elegir un numero aleatorio
 - Cómo ejecutar:
-  1) Instala Python (python.org). 
-  2) Abre una terminal dentro de la carpeta `codigo`.
+  1) Instalar Python. 
+  2) Abrir un editor de codigo como Visual Studio Code o usar la misma terminal de python
   3) Ejecuta: `python JuegoAhorcado.py`
 - Estructura: 
   /codigo/JuegoAhorcado.py

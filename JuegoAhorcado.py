@@ -16,7 +16,7 @@ def ShowBoard(secret_word, letters_guesed):
     print(board)    #Mostramos el estado del tablero
 
 def game_ahorcado():
-    secret_word= GetRandomWord()    Obtenemos la palabra secreta aleatoria
+    secret_word= GetRandomWord()    #Obtenemos la palabra secreta aleatoria
     letter_guesed=[]    #Los corchetes representan la lista donde se almacenan las letras que ingrese el jugador
     lifes = 6    #Vidas o intentos disponibles que tiene el jugador
 #Aqui inserte un bucle para que: mientras el usuario tenga vidas el codigo le permita ingresar mas letras
@@ -39,4 +39,4 @@ def game_ahorcado():
         print(f"Perdiste, la palabra secreta era:{secret_word}")    #se le muestra la palabra secreta al usuario
 #funcion para iniciar juego
 game_ahorcado()
-#este codigo no detecta mayusculas, pero creo q es posible asignarlo, de momento esto es lo que tengo
+
